@@ -1,0 +1,15 @@
+#!/bin/bash
+# sobelfilter
+
+set -e
+
+usage() {
+	echo "Usage $0 (IMAGE_FILENAME)"
+}
+
+if [ $# -ne 1 ]; then
+	usage
+	exit 1
+fi
+
+sobelfilter $1
