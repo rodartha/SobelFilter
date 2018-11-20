@@ -13,5 +13,12 @@ Output of the program will appear in the output folder with the title [original-
 # Examples
 Below are a few examples of pictures run through the program, you can see more in the Examples folder.
 
+## Before
 ![alt text](https://github.com/rodartha/SobelFilter/blob/master/Examples/Sagrada-Familia.png)
+## After
 ![alt text](https://github.com/rodartha/SobelFilter/blob/master/Examples/Sagrada-Familia_sob.jpg)
+
+## Before
+![alt text](https://github.com/rodartha/SobelFilter/blob/master/Examples/dc_alley.JPG)
+## After
+![alt text](https://github.com/rodartha/SobelFilter/blob/master/Examples/dc_alley_sob.jpg)
