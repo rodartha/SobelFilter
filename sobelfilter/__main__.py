@@ -4,6 +4,7 @@ import os
 import numpy
 import imageio
 import click
+from helper import progressBar
 
 
 class SobelFilter:
@@ -137,7 +138,7 @@ class SobelFilter:
 
                 for i in range(0, 3):
                     self.filtered_image[x, y, i] = normalized_length
-
+            progressBar(x, self.image.shape[0])
         self.filtered_image = self.filtered_image.astype(numpy.uint8)
 
     def get_filtered_image(self):
