@@ -4,7 +4,7 @@ import os
 import numpy
 import imageio
 import click
-from helper import progressBar
+from sobelfilter.helper import progressBar
 
 
 class SobelFilter:
